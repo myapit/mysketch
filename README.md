@@ -1,2 +1,6 @@
 # mysketch
-all mysketch code
+all mysketch programming code
+
+# Language
+C/C++
+Python
