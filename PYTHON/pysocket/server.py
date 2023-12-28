@@ -14,7 +14,7 @@ myserver.listen(10) ## accept 10 connection only
 print(f"Server starting ... {HOST} ")
 
 while True:
-    comm_socket, ipaddress = myserver.accept() # accept() will return 2 value, comm_socket and address
+    comm_socket, ipaddress = myserver.accept() # accept() will return  comm_socket and address
     print(f"Connected to {ipaddress}")
     mesg = comm_socket.recv(1024).decode('utf-8') # receive 1024 bytes
     print(f"Message from client : {mesg}")

@@ -5,7 +5,8 @@ import sys
 # checking argv when not hardcode IP server
 
 if len(sys.argv) < 2:
-    print(f"Command : {sys.argv[1]} IP-Address")
+    print(f"Command to run : \n {sys.argv[0]} IP-Address")
+    exit()
 else:
     print("executing ...")
 
